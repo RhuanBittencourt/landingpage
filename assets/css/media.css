@@ -55,10 +55,40 @@
     .banner-rigth {
         padding:30px;
     }
+    aside {
+        margin-right: 20px;
+    }
 
 
 
 }
+
+@media screen and (max-width: 768px) {
+    h2 {
+        font-size: 52px;
+
+    }
+    p {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .boll {
+        padding-right: 32px;
+    }
+    #contato {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .boll {
+        padding-right: 30px;
+    }
+    
+}
+
 
 @media screen and (max-width: 320px) {
     aside {
@@ -101,6 +131,9 @@
     .content-text {
         
         margin-top: 50px;
+    }
+    .boll {
+        padding-right: 35px;
     }
 
 
